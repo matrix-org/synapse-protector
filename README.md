@@ -1,6 +1,6 @@
 # Protector
 
-This module protects users and rooms from accidental deletion.
+Synapse module that protects users and rooms from accidental deletion.
 
 
 ## Installation
@@ -78,12 +78,4 @@ Synapse developers (assuming a Unix-like shell):
     git push origin tag v$version
     ```
 
- 7. If applicable:
-    Create a *release* based on the tag you just pushed, on GitHub.
-
- 8. If applicable:
-    Create a source distribution and upload it to PyPI:
-    ```shell
-    python -m build
-    twine upload dist/synapse_protector-$version*
-    ```
+ 7. Create a *release* based on the tag you just pushed, on GitHub.
